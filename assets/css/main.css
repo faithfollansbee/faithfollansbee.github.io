@@ -30,6 +30,10 @@
 		vertical-align: baseline;
 	}
 
+	.devicon {
+		font-size: 30px;
+	}
+
 	article, aside, details, figcaption, figure,
 	footer, header, hgroup, menu, nav, section {
 		display: block;

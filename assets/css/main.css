@@ -3174,97 +3174,73 @@
 			}
 
 /* Banner */
+#banner {
+	background-attachment: scroll, scroll, scroll, fixed;
+	background-color: #645862;
+	background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+	background-position: bottom left, bottom right, top left, top center;
+	background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+	background-size: 25em, 25em, auto, cover;
+	color: #fff;
+	cursor: default;
+	padding: 6em 0;
+	text-align: center;
+}
 
-	#banner {
-		// opacity: .8;<script src="https://kit.fontawesome.com/a13584ea75.js//></script>
-		background-attachment: scroll, fixed;
-		/* background-color: #666; */
-		background-image: url("Boston.jpg"), url("../../images/Boston.jpg");
-		background-position: top left,						center center;
-		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
-		/* color: #fff; */
-		padding: 12em 0 20em 0;
+	#banner .inner {
+		-moz-animation: reveal-banner 1s 0.25s ease-in-out;
+		-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+		-ms-animation: reveal-banner 1s 0.25s ease-in-out;
+		animation: reveal-banner 1s 0.25s ease-in-out;
+		-moz-animation-fill-mode: forwards;
+		-webkit-animation-fill-mode: forwards;
+		-ms-animation-fill-mode: forwards;
+		animation-fill-mode: forwards;
+		background: rgba(52, 27, 43, 0.5);
+		color: #fff;
+		display: inline-block;
+		opacity: 0;
+		padding: 3em;
 		text-align: center;
-		background-color: #645862;
-	/*	background-position: bottom left, bottom right, top left, top center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
-		color: #fff; */
-		cursor: default;
-		padding: 6em 0;
 	}
 
-		#banner :last-child {
-			margin-bottom: 0;
-		}
-
-		#banner .inner {
-			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
-			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
-			-ms-animation: reveal-banner 1s 0.25s ease-in-out;
-			animation: reveal-banner 1s 0.25s ease-in-out;
-			-moz-animation-fill-mode: forwards;
-			-webkit-animation-fill-mode: forwards;
-			-ms-animation-fill-mode: forwards;
-			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
-			color: #fff;
+		#banner .inner header {
 			display: inline-block;
-			opacity: 0;
-			padding: 3em;
-			text-align: center;
+			border-bottom: solid 2px;
+			border-top: solid 2px;
+			margin: 0 0 2em 0;
+			padding: 3px 0 3px 0;
 		}
 
-
-		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: white;
-		}
-
-		#banner h2 {
-			font-size: 3.5em;
-			line-height: 1em;
-			margin: 0 0 0.5em 0;
-			padding: 0;
-			color: white;
-		}
-
-		#banner p {
-			font-size: 1.25em;
-			margin-bottom: 1.75em;
-		}
-
-		#banner input[type="submit"],
-		#banner input[type="reset"],
-		#banner input[type="button"],
-		#banner .button {
-			background-color: transparent;
-			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
-			color: #fff;
-			min-width: 12em;
-		}
-
-			#banner input[type="submit"]:hover,
-			#banner input[type="reset"]:hover,
-			#banner input[type="button"]:hover,
-			#banner .button:hover {
-				background-color: rgba(255, 255, 255, 0.1);
+			#banner .inner header h2 {
+				border-bottom: solid 2px;
+				border-top: solid 2px;
+				font-size: 2.5em;
+				font-weight: 900;
+				letter-spacing: 0.2em;
+				margin: 0;
+				padding-left: 0.05em;
+				position: relative;
+				text-transform: uppercase;
 			}
 
-			#banner input[type="submit"]:active,
-			#banner input[type="reset"]:active,
-			#banner input[type="button"]:active,
-			#banner .button:active {
-				background-color: rgba(255, 255, 255, 0.2);
+		#banner .inner p {
+			letter-spacing: 0.1em;
+			margin: 0;
+			text-transform: uppercase;
+		}
+
+			#banner .inner p a {
+				color: inherit;
+				font-weight: 400;
+				text-decoration: none;
 			}
 
-			#banner input[type="submit"].primary,
-			#banner input[type="reset"].primary,
-			#banner input[type="button"].primary,
-			#banner .button.primary {
-				background: #fff;
-				color: #666 !important;
-			}
+		#banner .inner footer {
+			margin: 2em 0 0 0;
+		}
+
+
 
 /* Main */
 

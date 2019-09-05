@@ -3191,10 +3191,24 @@
 		#banner :last-child {
 			margin-bottom: 0;
 		}
-		#banner h1 {
-			color: white;
-			font-size: 4em;
+
+		#banner .inner {
+			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
+			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+			-ms-animation: reveal-banner 1s 0.25s ease-in-out;
+			animation: reveal-banner 1s 0.25s ease-in-out;
+			-moz-animation-fill-mode: forwards;
+			-webkit-animation-fill-mode: forwards;
+			-ms-animation-fill-mode: forwards;
+			animation-fill-mode: forwards;
+			background: rgba(52, 27, 43, 0.5);
+			color: #fff;
+			display: inline-block;
+			opacity: 0;
+			padding: 3em;
+			text-align: center;
 		}
+
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
 			color: white;

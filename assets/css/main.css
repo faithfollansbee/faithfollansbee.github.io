@@ -3178,13 +3178,22 @@
 	#banner {
 		// opacity: .8;<script src="https://kit.fontawesome.com/a13584ea75.js//></script>
 		background-attachment: scroll, fixed;
-		background-color: #666;
+		/* background-color: #666; */
 		background-image: url("Boston.jpg"), url("../../images/Boston.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
-		color: #fff;
+		/* color: #fff; */
 		padding: 12em 0 20em 0;
+		text-align: center;
+
+		background-color: #645862;
+			background-position: bottom left, bottom right, top left, top center;
+		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+		background-size: 25em, 25em, auto, cover;
+		color: #fff;
+		cursor: default;
+		padding: 6em 0;
 		text-align: center;
 	}
 
@@ -3207,6 +3216,11 @@
 			opacity: 0;
 			padding: 3em;
 			text-align: center;
+
+		footer {
+			margin: 2em 0 0 0;
+		}
+
 		}
 
 

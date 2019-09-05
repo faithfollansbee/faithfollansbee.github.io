@@ -151,7 +151,15 @@
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
+		color: white;
+		font-style: bold;
+		font-weight: 300;
+		line-height: 1em;
+		margin: 0 0 0.5em 0;
+	}
+
+	h2, h3, h4, h5, h6 {
 		color: #646464;
 		font-weight: 300;
 		line-height: 1em;
@@ -3168,8 +3176,8 @@
 /* Banner */
 
 	#banner {
-		// opacity: .8;<script src="https://kit.fontawesome.com/a13584ea75.js"></script>
-		background-attachment: scroll,							fixed;
+		// opacity: .8;<script src="https://kit.fontawesome.com/a13584ea75.js//></script>
+		background-attachment: scroll, fixed;
 		background-color: #666;
 		background-image: url("Boston.jpg"), url("../../images/Boston.jpg");
 		background-position: top left,						center center;
@@ -3183,9 +3191,14 @@
 		#banner :last-child {
 			margin-bottom: 0;
 		}
-
+		#banner h1 {
+			color: white;
+			font-size: 4em;
+			font-weight: bold;
+		}
+		
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #white;
+			color: white;
 		}
 
 		#banner h2 {

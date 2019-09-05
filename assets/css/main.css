@@ -3186,15 +3186,13 @@
 		/* color: #fff; */
 		padding: 12em 0 20em 0;
 		text-align: center;
-
 		background-color: #645862;
-			background-position: bottom left, bottom right, top left, top center;
+	/*	background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
-		color: #fff;
+		color: #fff; */
 		cursor: default;
 		padding: 6em 0;
-		text-align: center;
 	}
 
 		#banner :last-child {
@@ -3210,17 +3208,12 @@
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
+			/* background: rgba(52, 27, 43, 0.5); */
 			color: #fff;
 			display: inline-block;
 			opacity: 0;
 			padding: 3em;
 			text-align: center;
-
-		footer {
-			margin: 2em 0 0 0;
-		}
-
 		}
 
 

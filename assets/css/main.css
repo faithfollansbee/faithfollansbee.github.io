@@ -3176,8 +3176,8 @@
 /* Banner */
 #banner {
 		background-attachment: scroll,							fixed;
-		background-color: #666;
-		background-image: url("images/Boston.jpg"), url("../../images/Boston.jpg");
+		background-color: #645862;
+		/* background-image: url("images/Boston.jpg"), url("../../images/Boston.jpg"); */
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;

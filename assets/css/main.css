@@ -3178,13 +3178,16 @@
   margin: 30px;
   background-color: #ffffff;
   border: 1px solid black;
+	width: 50%;
   opacity: 0.6;
   filter: alpha(opacity=60); /* For IE8 and earlier */
+	color: white;
 }
+
 #banner {
 		background-attachment: scroll,							fixed;
 		background-color: #645862;
-		/* background-image: url("images/Boston.jpg"), url("../../images/Boston.jpg"); */
+		background-image: url("images/Boston.jpg"), url("../../images/Boston.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;

@@ -11,6 +11,11 @@
 
 /* Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain) */
 
+#resume {
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+}
 .contact {
 	font-size: 300px;
 }

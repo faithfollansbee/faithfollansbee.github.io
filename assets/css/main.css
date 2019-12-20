@@ -272,6 +272,10 @@
 
 /* Row */
 
+	.thumbnail {
+		height:
+	}
+
 	.row {
 		display: flex;
 		flex-wrap: wrap;
